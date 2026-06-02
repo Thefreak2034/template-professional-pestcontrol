@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ═══════════════════════════════════════════
+       SEO: Meta Tags
+       n8n tokens: {{business_name}}, {{service_keyword}}, {{suburb}}, {{tagline}}, {{meta_description}}
+  ═══════════════════════════════════════════ -->
+  <title>Shield Pest Control — Pest Control Hawthorn | 24/7 Emergency Service</title>
+  <meta name="description" content="Shield Pest Control — professional pest control services in Hawthorn and surrounding areas. Licensed pest control technician for homes and businesses. 24/7 emergency callouts. Call 0412 345 678 for a free quote.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{site_url}}">
+
+  <!-- ═══════════════════════════════════════════
+       SEO: Open Graph
+       n8n tokens: {{business_name}}, {{service_keyword}}, {{suburb}}, {{meta_description}}, {{hero_image}}, {{site_url}}
+  ═══════════════════════════════════════════ -->
+  <meta property="og:title" content="Shield Pest Control — Pest Control Hawthorn">
+  <meta property="og:description" content="Shield Pest Control — professional pest control services in Hawthorn and surrounding areas. Licensed pest control technician for homes and businesses. 24/7 emergency callouts. Call 0412 345 678 for a free quote.">
+  <meta property="og:image" content="{{hero_image}}">
+  <meta property="og:url" content="{{site_url}}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_AU">
+  <meta property="og:site_name" content="Shield Pest Control">
+
+  <!-- ═══════════════════════════════════════════
+       SEO: LocalBusiness / PestControlService Schema
+       n8n replaces: {{business_name}}, {{phone}}, {{email}}, {{street_address}},
+       {{suburb}}, {{state}}, {{postcode}}, {{hours_schema}}, {{site_url}},
+       {{social_facebook}}, {{social_instagram}}
+  ═══════════════════════════════════════════ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PestControlService",
+    "name": "Shield Pest Control",
+    "description": "{{schema_description}}",
+    "image": "{{hero_image}}",
+    "url": "{{site_url}}",
+    "telephone": "0412345678",
+    "email": "info@shieldpestcontrol.com.au",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "718 Glenferrie Rd",
+      "addressLocality": "Hawthorn",
+      "addressRegion": "VIC",
+      "postalCode": "3122",
+      "addressCountry": "AU"
+    },
+    "openingHoursSpecification": {{schema_hours}},
+    "priceRange": "$",
+    "areaServed": {
+      "@type": "City",
+      "name": "Hawthorn"
+    },
+    "sameAs": {{schema_sameas}}
+  }
+  </script>
+
+  <!-- ═══════════════════════════════════════════
+       Fonts — Exo (headings) + Albert Sans (body)
+  ═══════════════════════════════════════════ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600;700;800&family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- ═══════════════════════════════════════════
+       Critical CSS — prevents FOUC on first paint
+  ═══════════════════════════════════════════ -->
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;font-size:16px}
+    body{font-family:'Albert Sans',sans-serif;background:#fff;color:#6E777D;-webkit-font-smoothing:antialiased;line-height:1.6}
+    h1,h2,h3,h4,h5,h6{font-family:'Exo',sans-serif;color:#1F1F25;line-height:1.2;font-weight:700}
+    .header{position:relative;z-index:100;background:#fff}
+    .header-nav-wrapper{position:relative}.header-nav-area{display:flex;align-items:center;justify-content:space-between;position:absolute;top:0;left:0;right:0;z-index:100;padding:0 30px;background:#ffffff;border-radius:0 0 7px 7px;box-shadow:0 4px 15px rgba(0,0,0,.08);min-height:60px}
+    #hero{position:relative;min-height:85dvh;min-height:85vh;background:#1F1F25;display:flex;align-items:center;justify-content:center;overflow:hidden}
+    .container{max-width:1200px;margin:0 auto;padding:0 20px}
+  </style>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 1: Header
+       n8n tokens: {{logo_url}}, {{business_name}}, {{phone}}, {{email}}, {{address}}
+  ═══════════════════════════════════════════ -->
+  <header class="header">
+
+    <!-- Row 1: Header Top — logo + info blocks + CTA -->
+    <div class="header-top">
+      <div class="container">
+        <div class="header-top-inner">
+
+          <!-- Logo (col-lg-3 equivalent) -->
+          <div class="header-top-left">
+            <!-- DGG:LOGO:HEADER_TOP:START -->
+            <a href="#" class="header-logo" aria-label="Shield Pest Control — Home">
+              <svg class="header-logo-icon" width="38" height="38" viewBox="0 0 38 38" fill="none" aria-hidden="true">
+                <circle cx="19" cy="19" r="19" fill="#1646D2"/>
+                <path d="M19 8 C19 8 11 17 11 23 C11 27.5 14.5 31 19 31 C23.5 31 27 27.5 27 23 C27 17 19 8 19 8 Z" fill="#fff" stroke="#fff" stroke-width="0.5" stroke-linejoin="round"/>
+              </svg>
+              <span class="header-logo-text">SHIELD <strong>PEST CONTROL</strong></span>
+            </a>
+            <!-- DGG:LOGO:HEADER_TOP:END -->
+          </div>
+
+          <!-- Info blocks + CTA (col-lg-9 equivalent) -->
+          <div class="header-right-area">
+
+            <div class="header-info-block">
+              <div class="header-info-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="header-info-content">
+                <a href="mailto:info@shieldpestcontrol.com.au" class="header-info-value">info@shieldpestcontrol.com.au</a>
+              </div>
+            </div>
+
+            <div class="header-info-block">
+              <div class="header-info-icon" aria-hidden="true">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="header-info-content">
+                <a href="tel:0412345678" class="header-info-value">0412 345 678</a>
+              </div>
+            </div>
+
+            <div class="header-cta-wrap">
+              <a href="#contact" class="btn btn-primary header-cta">
+                Request Quote
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+
+          </div><!-- /.header-right-area -->
+
+        </div><!-- /.header-top-inner -->
+      </div>
+    </div><!-- /.header-top -->
+
+    <!-- Row 2: Header Nav — sits below header-top, overlaps hero (Drill: header-nav-area) -->
+    <div class="container header-nav-wrapper">
+      <div class="header-nav-area" id="header-nav">
+
+        <!-- Mobile logo (hidden on desktop, shown when header-top is hidden) -->
+        <div class="logo-md-sm-device">
+        <!-- DGG:LOGO:HEADER_MOBILE:START -->
+        <a href="#" aria-label="Shield Pest Control — Home">
+          <svg width="30" height="30" viewBox="0 0 38 38" fill="none" aria-hidden="true">
+            <circle cx="19" cy="19" r="19" fill="#1646D2"/>
+            <path d="M19 8 C19 8 11 17 11 23 C11 27.5 14.5 31 19 31 C23.5 31 27 27.5 27 23 C27 17 19 8 19 8 Z" fill="#fff" stroke="#fff" stroke-width="0.5" stroke-linejoin="round"/>
+          </svg>
+          <span class="header-nav-logo-text">SHIELD <strong>PEST CONTROL</strong></span>
+        </a>
+        <!-- DGG:LOGO:HEADER_MOBILE:END -->
+      </div>
+
+      <!-- Desktop nav links (Drill: header-nav main-nav-one) -->
+      <div class="header-nav-links">
+        <nav aria-label="Main navigation">
+          <ul role="list">
+            <li class="nav-item"><a href="#hero" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#services" class="nav-link">SERVICES</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="#how-we-work" class="nav-link">HOW WE WORK</a></li>
+            <li class="nav-item"><a href="#reviews" class="nav-link">REVIEWS</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Actions area: tablet CTA + phone icon, scroll CTA + phone, hamburger -->
+      <div class="actions-area">
+        <a href="tel:0412345678" class="nav-phone-tablet" aria-label="Call Shield Pest Control">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-primary nav-cta-tablet">Request Quote</a>
+        <a href="tel:0412345678" class="nav-phone">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          0412 345 678
+        </a>
+        <a href="#contact" class="btn btn-primary nav-cta">Request Quote</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="side-panel">
+          <svg width="20" height="16" viewBox="0 0 20 16" fill="none" aria-hidden="true">
+            <rect y="14" width="20" height="2" fill="#1F1F25"/>
+            <rect y="7" width="20" height="2" fill="#1F1F25"/>
+            <rect width="20" height="2" fill="#1F1F25"/>
+          </svg>
+        </button>
+      </div>
+
+      </div><!-- /.header-nav-area -->
+    </div><!-- /.header-nav-wrapper -->
+
+  </header>
+
+  <!-- ═══════════════════════════════════════════
+       SIDE PANEL — Mobile navigation (slide-in from right)
+       Separate from nav element per Drill layout
+  ═══════════════════════════════════════════ -->
+  <div class="side-panel" id="side-panel" aria-hidden="true" role="dialog" aria-label="Mobile navigation">
+    <div class="side-panel-overlay" id="side-panel-overlay"></div>
+    <div class="side-panel-content">
+
+      <button class="side-panel-close" id="side-panel-close" aria-label="Close menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+
+      <ul class="side-panel-links" role="list">
+        <li><a href="#hero" class="side-panel-link">Home</a></li>
+        <li><a href="#services" class="side-panel-link">Services</a></li>
+        <li><a href="#about" class="side-panel-link">About</a></li>
+        <li><a href="#how-we-work" class="side-panel-link">How We Work</a></li>
+        <li><a href="#reviews" class="side-panel-link">Reviews</a></li>
+        <li><a href="#contact" class="side-panel-link">Contact</a></li>
+      </ul>
+
+      <div class="side-panel-social">
+        <!-- DGG:SOCIAL:SIDE_PANEL:START -->
+        <a href="https://www.facebook.com/shieldpestcontrol" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="side-panel-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/company/shieldpestcontrol" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="side-panel-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/shieldpestcontrol" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="side-panel-social-link">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+        <!-- DGG:SOCIAL:SIDE_PANEL:END -->
+      </div>
+
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 2: Hero Banner
+         n8n tokens: {{business_name}}, {{service_keyword}}, {{suburb}}, {{hero_image}}, {{tagline}}
+    ═══════════════════════════════════════════ -->
+    <section id="hero" aria-labelledby="hero-heading">
+
+      <!-- Background image -->
+      <div class="hero-bg" style="background-image: url('images/pestcontrol-hero.webp');" role="img" aria-label="Licensed pest control technician treating the exterior of a modern Australian home"></div>
+
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <!-- Decorative overlay shapes (Drill-style angular accents) -->
+      <div class="hero-shapes" aria-hidden="true">
+        <!-- Left: tall angled blue strip with diagonal edge -->
+        <svg class="hero-shape-full-left" viewBox="0 0 600 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0 L420 0 L280 900 L0 900 Z" fill="#1646D2" opacity="0.65"/>
+          <path d="M420 0 L460 0 L320 900 L280 900 Z" fill="#ffffff" opacity="0.15"/>
+        </svg>
+        <!-- Left-top: small triangle accent -->
+        <svg class="hero-shape-left-top" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 0 L200 0 L0 180 Z" fill="#1646D2" opacity="0.65"/>
+        </svg>
+        <!-- Left-bottom: angular accent -->
+        <svg class="hero-shape-left-bottom" viewBox="0 0 250 300" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 300 L0 80 L180 0 L250 0 L250 300 Z" fill="#1646D2" opacity="0.65"/>
+        </svg>
+        <!-- Right: full-height angular accent, pushed right -->
+        <svg class="hero-shape-right-bottom" viewBox="0 0 600 900" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M600 0 L600 900 L200 900 L400 0 Z" fill="#1646D2" opacity="0.65"/>
+          <path d="M400 0 L360 0 L160 900 L200 900 Z" fill="#ffffff" opacity="0.12"/>
+        </svg>
+      </div>
+
+      <div class="container hero-content">
+        <p class="hero-prelabel">Licensed &amp; Insured Pest Control</p>
+
+        <h1 id="hero-heading" class="hero-heading">
+          Shield Pest Control<br>Trusted Pest Control in Hawthorn
+        </h1>
+
+        <p class="hero-sub">Termites, cockroaches, rodents, or possums? Licensed local pest technicians, fast same-day service, and safe, family- and pet-friendly treatments — homes and businesses.</p>
+
+        <a href="#contact" class="btn btn-primary btn-lg hero-cta">
+          Get a Free Quote
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 3: About / Why Choose Us
+         n8n tokens: {{about_text}}, {{phone}}, {{about_image}}, {{service_image_1}}
+    ═══════════════════════════════════════════ -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Left column: images with experience badge -->
+          <div class="about-images fade-in">
+            <div class="about-img-main">
+              <img src="images/pestcontrol-about-feature.webp" alt="Licensed pest control technician treating a modern Australian home by Shield Pest Control" loading="lazy">
+              <div class="about-badge" aria-hidden="true">
+                <span class="about-badge-number">15+</span>
+                <span class="about-badge-text">Years of<br>Experience</span>
+              </div>
+            </div>
+            <div class="about-img-secondary about-img-fly-in">
+              <img src="images/pestcontrol-about-secondary.webp" alt="Branded pest control service van outside a modern Australian home by Shield Pest Control" loading="lazy">
+            </div>
+          </div>
+
+          <!-- Right column: content -->
+          <div class="about-content fade-in">
+            <span class="section-prelabel">Why Choose Us</span>
+            <h2 id="about-heading" class="section-heading">Why Choose Shield Pest Control</h2>
+            <p class="about-text">With over 15 years of experience serving Hawthorn and surrounding areas, Shield Pest Control has built a reputation for honest, thorough pest management. We're fully licensed, insured, and police-checked, using safe, family- and pet-friendly treatments to protect your home or business from termites, cockroaches, rodents, possums, and more.</p>
+
+            <div class="about-experience-row">
+              <div class="about-experience-icon" aria-hidden="true">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <p class="about-experience-text">We Have More Than <strong>15+ Years</strong> Of Pest Control Experience</p>
+            </div>
+
+            <div class="about-cta-row">
+              <a href="tel:0412345678" class="about-phone-link">
+                <span class="about-phone-icon" aria-hidden="true">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <span class="about-phone-number">0412 345 678</span>
+              </a>
+              <a href="#contact" class="btn btn-primary">REQUEST QUOTE</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 4: Features / More About
+         n8n tokens: {{service_image_2}}
+    ═══════════════════════════════════════════ -->
+    <section id="features" class="section section--dark-angled" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="features-grid">
+
+          <!-- Left column (7/12): content + 2x2 feature cards -->
+          <div class="features-content fade-in">
+            <span class="section-prelabel">What We Offer</span>
+            <h2 id="features-heading" class="section-heading">Professional Pest Control Services</h2>
+
+            <div class="features-cards">
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">Licensed &amp; Fully Insured</h6>
+                  <p class="feature-card-desc">Fully licensed pest control technicians with comprehensive insurance and police-checked staff for your peace of mind.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">On Time Every Time</h6>
+                  <p class="feature-card-desc">We respect your time. We show up when we say we will, or we'll let you know in advance.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">Clean &amp; Tidy Work</h6>
+                  <p class="feature-card-desc">We leave your home or business as clean as we found it. Every time.</p>
+                </div>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-card-icon" aria-hidden="true">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 10v12"/><path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/></svg>
+                </div>
+                <div class="feature-card-body">
+                  <h6 class="feature-card-title">Satisfaction Guaranteed</h6>
+                  <p class="feature-card-desc">We stand behind our work. If you're not happy, we'll make it right.</p>
+                </div>
+              </div>
+
+            </div><!-- /.features-cards -->
+          </div>
+
+          <!-- Right column (5/12): large image -->
+          <div class="features-image fade-in">
+            <img src="images/pestcontrol-feature.webp" alt="Pest control technician with backpack sprayer treating a home exterior by Shield Pest Control" loading="lazy">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 5: Services
+         n8n tokens: {{service_N_name}}, {{service_N_description}}, {{service_image_N}}
+    ═══════════════════════════════════════════ -->
+    <section id="services" class="section" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">What We Do</span>
+          <h2 id="services-heading" class="section-heading">Our Pest Control Services</h2>
+        </div>
+
+        <!-- DGG:SERVICES:START -->
+        <div class="services-grid">
+
+          <!-- Service Card 1: General Pest Control -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-general-pest-control.webp" alt="General Pest Control by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 4h3a2 2 0 0 1 2 2v14"/><path d="M2 20h20"/><path d="M13 4.562v16.157a1 1 0 0 1-1.242.97L5 20V5.562a2 2 0 0 1 1.515-1.94l4-1A2 2 0 0 1 13 4.561Z"/><path d="M10 12v.01"/></svg>
+              </div>
+              <h5 class="service-card-title">General Pest Control</h5>
+              <p class="service-card-desc">Comprehensive treatment and ongoing protection against common household pests — cockroaches, ants, spiders, and more, for homes and businesses.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 2: Termite Inspection -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-termite-inspection.webp" alt="Termite Inspection by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg>
+              </div>
+              <h5 class="service-card-title">Termite Inspection</h5>
+              <p class="service-card-desc">Thorough timber pest inspections that detect termite activity early and protect your property from costly structural damage.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 3: Termite Treatment -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-termite-treatment.webp" alt="Termite Treatment by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4"/><path d="m21 2-9.6 9.6"/><circle cx="7.5" cy="15.5" r="5.5"/></svg>
+              </div>
+              <h5 class="service-card-title">Termite Treatment</h5>
+              <p class="service-card-desc">Targeted termite eradication using proven baiting and chemical treatments to wipe out active colonies fast.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 4: Cockroach Control -->
+          <article class="service-card service-card--highlight">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-cockroach-control.webp" alt="Cockroach Control by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 9.9-1"/></svg>
+              </div>
+              <h5 class="service-card-title">Cockroach Control</h5>
+              <p class="service-card-desc">Fast, effective cockroach extermination and prevention for kitchens, bathrooms, and commercial premises.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 5: Ant Control -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-ant-control.webp" alt="Ant Control by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+              </div>
+              <h5 class="service-card-title">Ant Control</h5>
+              <p class="service-card-desc">Targeted treatments that eliminate ant trails and nests, indoors and out, and stop them coming back.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 6: Spider Control -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-spider-control.webp" alt="Spider Control by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z"/><circle cx="16.5" cy="7.5" r=".5" fill="currentColor"/></svg>
+              </div>
+              <h5 class="service-card-title">Spider Control</h5>
+              <p class="service-card-desc">Safe spider treatments that clear webs and nests and protect your family from dangerous species.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 7: Rodent Control (Rats &amp; Mice) -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-rodent-control-rats-mice.webp" alt="Rodent Control (Rats &amp; Mice) by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg>
+              </div>
+              <h5 class="service-card-title">Rodent Control (Rats &amp; Mice)</h5>
+              <p class="service-card-desc">Rat and mouse control with baiting, trapping, and entry-point proofing to keep rodents out for good.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 8: Possum Removal -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-possum-removal.webp" alt="Possum Removal by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><circle cx="9" cy="7" r=".5" fill="currentColor"/><circle cx="12" cy="7" r=".5" fill="currentColor"/><circle cx="15" cy="7" r=".5" fill="currentColor"/><circle cx="9" cy="11" r=".5" fill="currentColor"/><circle cx="12" cy="11" r=".5" fill="currentColor"/><circle cx="15" cy="11" r=".5" fill="currentColor"/><circle cx="12" cy="15" r=".5" fill="currentColor"/></svg>
+              </div>
+              <h5 class="service-card-title">Possum Removal</h5>
+              <p class="service-card-desc">Humane possum removal and proofing that safely relocates possums and seals entry points, fully compliant with wildlife regulations.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Service Card 9: Bed Bug Treatment -->
+          <article class="service-card">
+            <div class="service-card-thumb">
+              <img src="images/pestcontrol-service-bed-bug-treatment.webp" alt="Bed Bug Treatment by Shield Pest Control" loading="lazy">
+            </div>
+            <div class="service-card-body">
+              <div class="service-card-icon" aria-hidden="true">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 22V4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v18Z"/><path d="M6 12H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2"/><path d="M18 9h2a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2h-2"/><path d="M10 6h4"/><path d="M10 10h4"/><path d="M10 14h4"/><path d="M10 18h4"/></svg>
+              </div>
+              <h5 class="service-card-title">Bed Bug Treatment</h5>
+              <p class="service-card-desc">Complete bed bug eradication using heat and targeted treatments to clear infestations from homes, rentals, and accommodation.</p>
+              <a href="#contact" class="service-card-link">
+                Request Quote
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+        </div><!-- /.services-grid -->
+        <!-- DGG:SERVICES:END -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 6: How We Work
+    ═══════════════════════════════════════════ -->
+    <section id="how-we-work" class="section section--light" aria-labelledby="how-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">Our Process</span>
+          <h2 id="how-heading" class="section-heading">How We Work</h2>
+          <p class="section-description">Simple, straightforward, and stress-free. From first contact to job complete, we make it easy.</p>
+        </div>
+
+        <div class="how-steps">
+
+          <div class="how-step">
+            <div class="how-step-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/><path d="M14.05 2a9 9 0 0 1 8 7.94"/><path d="M14.05 6A5 5 0 0 1 18 10"/></svg>
+            </div>
+            <div class="how-step-num">01</div>
+            <h3 class="how-step-title">Discuss Your Project</h3>
+            <p class="how-step-desc">We'll discuss your project and provide smart solutions.</p>
+          </div>
+
+          <!-- Dashed connector -->
+          <div class="how-step-connector" aria-hidden="true"></div>
+
+          <div class="how-step">
+            <div class="how-step-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="11" y2="13"/><line x1="11" y1="13" x2="15" y2="17"/></svg>
+            </div>
+            <div class="how-step-num">02</div>
+            <h3 class="how-step-title">Receive Your Quote</h3>
+            <p class="how-step-desc">You'll get a clear, upfront quote, no surprises, no hidden fees.</p>
+          </div>
+
+          <!-- Dashed connector -->
+          <div class="how-step-connector" aria-hidden="true"></div>
+
+          <div class="how-step">
+            <div class="how-step-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <div class="how-step-num">03</div>
+            <h3 class="how-step-title">We Get to Work</h3>
+            <p class="how-step-desc">Once you give us the go-ahead, we'll schedule and complete the job.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 7: Stats / Counter
+         n8n tokens: {{stat_1_number}}, {{stat_1_label}}, {{stat_2_number}}, {{stat_2_label}},
+         {{stat_3_number}}, {{stat_3_label}}, {{stat_4_number}}, {{stat_4_label}}
+    ═══════════════════════════════════════════ -->
+    <section id="stats" class="section-stats section--dark-angled" aria-label="Business statistics">
+      <div class="container">
+        <!-- DGG:STATS:START -->
+        <div class="stats-grid">
+
+          <div class="stat-item fade-in">
+            <div class="stat-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <span class="stat-number" data-target="500" data-suffix="+" aria-label="500+ Jobs Completed">0</span>
+            <span class="stat-label">Jobs Completed</span>
+          </div>
+
+          <div class="stat-item fade-in">
+            <div class="stat-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <span class="stat-number" data-target="15" data-suffix="+" aria-label="15+ Years Experience">0</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+
+          <div class="stat-item fade-in">
+            <div class="stat-icon" aria-hidden="true">
+              <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="stat-number" data-target="1200" data-suffix="+" aria-label="1200+ Happy Customers">0</span>
+            <span class="stat-label">Happy Customers</span>
+          </div>
+
+        </div>
+        <!-- DGG:STATS:END -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 7: Testimonials
+         n8n tokens: {{review_N_text}}, {{review_N_name}}, {{review_N_rating}}
+    ═══════════════════════════════════════════ -->
+    <section id="reviews" class="section" aria-labelledby="reviews-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">Testimonials</span>
+          <h2 id="reviews-heading" class="section-heading">What Our Clients Say</h2>
+        </div>
+
+        <!-- DGG:REVIEWS:START -->
+        <div class="reviews-grid">
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="review-text">
+              "Had a bad cockroach problem in our kitchen and Shield Pest Control sorted it in one visit. Friendly, thorough, and no lingering smell. Have not seen one since."
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">S</div>
+              <div class="review-author-info">
+                <strong class="review-name">Sarah M.</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="review-text">
+              "Booked a termite inspection before buying our house — detailed report, found activity the building inspector missed. Saved us a fortune. Highly recommend."
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">J</div>
+              <div class="review-author-info">
+                <strong class="review-name">James T.</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 out of 5 stars">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="#F59E0B" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <blockquote class="review-text">
+              "Possums in the roof were keeping us up all night. They removed them humanely, sealed the entry points, and gave us a warranty. Professional from start to finish."
+            </blockquote>
+            <div class="review-author">
+              <div class="review-avatar" aria-hidden="true">P</div>
+              <div class="review-author-info">
+                <strong class="review-name">Priya K.</strong>
+              </div>
+            </div>
+          </article>
+
+        </div>
+        <!-- DGG:REVIEWS:END -->
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECTION 8: Contact
+         n8n tokens: {{phone}}, {{email}}, {{address}}, {{google_maps_embed}},
+         {{client_id}}, {{webhook_url}}, {{lead_email}}, {{business_name}}
+    ═══════════════════════════════════════════ -->
+    <section id="contact" class="section section--light" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-prelabel">Feel Free To Contact Us</span>
+          <h2 id="contact-heading" class="section-heading">Let's Get in Touch</h2>
+        </div>
+
+        <div class="contact-meta">
+          <span class="contact-meta-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            718 Glenferrie Rd, Hawthorn VIC 3122
+          </span>
+          <a href="tel:0412345678" class="contact-meta-item contact-meta-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            0412 345 678
+          </a>
+          <a href="mailto:info@shieldpestcontrol.com.au" class="contact-meta-item contact-meta-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            info@shieldpestcontrol.com.au
+          </a>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Left column (7/12): Contact form -->
+          <div class="contact-form-col">
+            <div class="form-card">
+
+              <form
+                id="contact-form"
+                action="{{webhook_url}}"
+                method="POST"
+                novalidate
+                aria-label="Contact enquiry form"
+              >
+                <!-- Honeypot — visually hidden, bots fill this in, we reject if populated -->
+                <div class="hp-field" aria-hidden="true">
+                  <label for="hp-website">Leave this blank</label>
+                  <input type="text" id="hp-website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+
+                <!-- Hidden routing fields (patched at build time) -->
+                <input type="hidden" name="client_id" value="{{client_id}}">
+                <input type="hidden" name="client_business_name" value="{{business_name}}">
+                <input type="hidden" name="notify_email" value="{{lead_email}}">
+                <input type="hidden" name="page_url" value="">
+                <input type="hidden" name="form_rendered_at" value="">
+
+                <div class="form-row">
+                  <div class="form-group form-group--half">
+                    <label for="contact-name" class="form-label">
+                      Name <span class="required-mark" aria-hidden="true">*</span>
+                    </label>
+                    <input type="text" id="contact-name" name="name" class="form-control" autocomplete="name" required aria-required="true" aria-describedby="err-name" placeholder="Your Name">
+                    <span class="field-error" id="err-name" role="alert" aria-live="polite"></span>
+                  </div>
+
+                  <div class="form-group form-group--half">
+                    <label for="contact-email" class="form-label">
+                      Email <span class="required-mark" aria-hidden="true">*</span>
+                    </label>
+                    <input type="email" id="contact-email" name="email" class="form-control" autocomplete="email" required aria-required="true" aria-describedby="err-email" placeholder="Your Email">
+                    <span class="field-error" id="err-email" role="alert" aria-live="polite"></span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-phone" class="form-label">
+                    Phone <span class="required-mark" aria-hidden="true">*</span>
+                  </label>
+                  <input type="tel" id="contact-phone" name="phone" class="form-control" autocomplete="tel" required aria-required="true" aria-describedby="err-phone" placeholder="Your Phone Number">
+                  <span class="field-error" id="err-phone" role="alert" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-message" class="form-label">
+                    Message <span class="optional-mark">(optional)</span>
+                  </label>
+                  <textarea id="contact-message" name="message" class="form-control form-textarea" rows="5" aria-describedby="err-message" placeholder="Tell us what you need..."></textarea>
+                  <span class="field-error" id="err-message" role="alert" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
+                  <span class="btn-default-text">Send Message</span>
+                  <span class="btn-loading-text" hidden aria-hidden="true">
+                    <span class="btn-spinner" aria-hidden="true"></span>
+                    <span>Sending...</span>
+                  </span>
+                </button>
+
+              </form>
+
+              <div class="form-success" id="form-success" hidden role="alert" aria-live="polite">
+                <h4 class="form-success-title">Thanks for telling us your details.</h4>
+                <p class="form-success-body">A member of our team will contact you as soon as possible to discuss your job.</p>
+              </div>
+              <div class="form-error-msg" id="form-error" hidden role="alert" aria-live="polite">
+                Something went wrong sending your enquiry. Please call us on <a href="tel:0412345678">0412 345 678</a>, or <a id="mailto-fallback" href="">email us directly</a>.
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right column (5/12): Google Maps -->
+          <div class="contact-map-col">
+            <div class="map-embed">
+              <iframe
+                src="https://maps.google.com/maps?q=718+Glenferrie+Rd,+Hawthorn+VIC+3122,+Australia&amp;output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Shield Pest Control location — 718 Glenferrie Rd, Hawthorn VIC 3122"
+              ></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- CTA bar — floats between contact section and footer, overlapping both -->
+  <div class="footer-cta-wrapper">
+    <div class="container">
+      <div class="footer-cta-bar">
+        <div class="footer-cta-inner">
+
+          <!-- Col 1: Logo with blue bg -->
+          <div class="footer-cta-item footer-cta-logo-col">
+            <!-- DGG:LOGO:FOOTER_CTA:START -->
+            <a href="#" class="footer-cta-logo" aria-label="Shield Pest Control — Home">
+              <svg width="34" height="34" viewBox="0 0 38 38" fill="none" aria-hidden="true">
+                <circle cx="19" cy="19" r="19" fill="#fff"/>
+                <path d="M19 8 C19 8 11 17 11 23 C11 27.5 14.5 31 19 31 C23.5 31 27 27.5 27 23 C27 17 19 8 19 8 Z" fill="#1646D2" stroke="#1646D2" stroke-width="0.5" stroke-linejoin="round"/>
+              </svg>
+              <span class="footer-cta-logo-text">SHIELD <strong>PEST CONTROL</strong></span>
+            </a>
+            <!-- DGG:LOGO:FOOTER_CTA:END -->
+          </div>
+
+          <!-- Col 2: Phone -->
+          <div class="footer-cta-item">
+            <div class="footer-cta-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="footer-cta-text">
+              <span class="footer-cta-label">Phone Number</span>
+              <a href="tel:0412345678" class="footer-cta-value">0412 345 678</a>
+            </div>
+          </div>
+
+          <!-- Col 3: Email -->
+          <div class="footer-cta-item">
+            <div class="footer-cta-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="footer-cta-text">
+              <span class="footer-cta-label">Email Us Here</span>
+              <a href="mailto:info@shieldpestcontrol.com.au" class="footer-cta-value">info@shieldpestcontrol.com.au</a>
+            </div>
+          </div>
+
+          <!-- Col 4: Address -->
+          <div class="footer-cta-item">
+            <div class="footer-cta-icon" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="footer-cta-text">
+              <span class="footer-cta-label">Office Address</span>
+              <span class="footer-cta-value">718 Glenferrie Rd, Hawthorn VIC 3122</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div><!-- /.footer-cta-wrapper -->
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 9: Footer
+       n8n tokens: {{business_name}}, {{phone}}, {{email}}, {{address}},
+       {{social_facebook}}, {{social_instagram}}, {{social_linkedin}}
+  ═══════════════════════════════════════════ -->
+  <div class="rts-footer-one" role="contentinfo">
+    <div class="container">
+
+      <!-- Footer content columns -->
+      <div class="footer-main">
+        <div class="single-footer-one-wrapper">
+
+          <!-- Column 1: About Company -->
+          <div class="single-footer-component first">
+            <h5 class="footer-heading">About Company</h5>
+            <p class="footer-text">Professional pest control services for homes and businesses in Hawthorn and surrounding areas. Licensed, insured, and committed to safe, family- and pet-friendly treatments.</p>
+            <div class="footer-social">
+              <!-- DGG:SOCIAL:FOOTER:START -->
+              <a href="https://www.facebook.com/shieldpestcontrol" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="footer-social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="https://www.linkedin.com/company/shieldpestcontrol" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="footer-social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/shieldpestcontrol" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="footer-social-link">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+              </a>
+              <!-- DGG:SOCIAL:FOOTER:END -->
+            </div>
+          </div>
+
+          <!-- Column 2: Useful Links -->
+          <div class="single-footer-component">
+            <h5 class="footer-heading">Useful Links</h5>
+            <ul class="footer-links" role="list">
+              <li>
+                <a href="#hero" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="#about" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#reviews" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Reviews
+                </a>
+              </li>
+              <li>
+                <a href="#contact" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Our Services -->
+          <div class="single-footer-component">
+            <h5 class="footer-heading">Our Services</h5>
+                        <!-- DGG:FOOTER_SERVICES:START -->
+            <ul class="footer-links" role="list">
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  General Pest Control
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Termite Inspection
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Termite Treatment
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Cockroach Control
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Ant Control
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Spider Control
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Rodent Control (Rats &amp; Mice)
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Possum Removal
+                </a>
+              </li>
+              <li>
+                <a href="#services" class="footer-link">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  Bed Bug Treatment
+                </a>
+              </li>
+            </ul>
+            <!-- DGG:FOOTER_SERVICES:END -->
+          </div>
+
+          <!-- Column 4: Working Hours -->
+          <div class="single-footer-component last">
+            <h5 class="footer-heading">Working Hours</h5>
+            <!-- DGG:FOOTER_HOURS:START -->
+            <table class="footer-hours-table" aria-label="Business hours">
+              <tbody>
+                <tr>
+                  <td>Monday - Friday</td>
+                  <td>7:00am - 6:00pm</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>8:00am - 2:00pm</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>Closed</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="footer-emergency">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#1646D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.84a16 16 0 0 0 6.29 6.29l.94-.94a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>24/7 Emergency Callouts Available</span>
+            </div>
+            <!-- DGG:FOOTER_HOURS:END -->
+          </div>
+
+        </div><!-- /.single-footer-one-wrapper -->
+      </div><!-- /.footer-main -->
+
+    </div>
+  </div><!-- /.rts-footer-one -->
+
+  <!-- Copyright bar — separate from footer per Drill structure -->
+  <div class="copyright-footer-one">
+    <div class="container">
+      <p class="footer-copy">&copy; <span id="footer-year">2026</span> Shield Pest Control. All rights reserved. <a href="https://digitalgrowthgenius.com" class="footer-credit" target="_blank" rel="noopener noreferrer">Powered by Digital Growth Genius</a></p>
+    </div>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
